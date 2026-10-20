@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="En infinitas líneas del tiempo, siempre te encontraría a ti. Un expediente escrito solamente para ti.">
+  <title>TVA — La anomalía de nuestro infinito</title>
+  <link rel="icon" href="assets/images/insignia.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/vendor/lucide.min.js"></script>
+  <script defer src="js/config.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al expediente</a>
+  <header class="masthead">
+    <button class="brand" data-go="0" aria-label="TVA, regresar al inicio"><img class="brand-logo" src="assets/images/tva-logo.jpg" alt="" width="100" height="62"><span class="brand-copy">ARCHIVOS TEMPORALES<br><b>DIVISIÓN INFINITO</b></span></button>
+    <span class="header-case">EXP. 616—∞ <span class="status-light"></span></span>
+    <div class="header-tools">
+      <button id="soundToggle" class="icon-button" aria-label="Activar sonido" aria-pressed="false" title="Activar sonido"><i data-lucide="volume-x"></i></button>
+      <button id="menuToggle" class="icon-button" aria-label="Abrir índice de expedientes" aria-expanded="false" aria-controls="journeyMenu" title="Índice de expedientes"><i data-lucide="menu"></i></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="sistema" class="scene system-scene" data-scene="0" aria-labelledby="system-title">
+      <div class="system-grid" aria-hidden="true"></div>
+      <div class="terminal-topline"><span class="status-light"></span> ENLACE TEMPORAL ESTABLE <span>20.10.2026</span></div>
+      <div id="boot" class="boot-console" aria-label="Inicio del sistema TVA">
+        <div class="monitor-nameplate"><span>TVA / DIVISIÓN INFINITO</span><span class="status-light"></span></div>
+        <div class="monitor-screen">
+          <p class="eyebrow">AUTORIDAD DE VARIACIÓN TEMPORAL</p>
+          <img class="monitor-timeline" src="assets/images/temporal-signal.svg" alt="" width="800" height="160">
+          <div class="terminal-lines" id="terminalLines" aria-hidden="true"><span class="cursor">▌</span></div>
+          <p class="sr-only">Iniciando sistema, verificando líneas temporales y analizando anomalías.</p>
+          <div class="boot-track"><div id="bootProgress"></div></div>
+        </div>
+        <div class="monitor-controls" aria-hidden="true"><span>SEÑAL 616 / ∞</span><span class="monitor-vents"></span><span class="monitor-dial"></span></div>
+      </div>
+      <div id="welcome" class="welcome" hidden>
+        <p class="eyebrow"><span class="tiny-cross">+</span> ARCHIVO CLASIFICADO: NUESTRO INFINITO</p>
+        <h1 id="system-title" tabindex="-1">La anomalía de<br>nuestro <em>infinito.</em></h1>
+        <p class="welcome-subtitle">Se ha detectado una conexión<br>que desafía todas las probabilidades.</p>
+        <button class="button primary" data-go="1">Acceder al expediente <i data-lucide="arrow-up-right"></i></button>
+        <div class="signal-graphic" aria-hidden="true"><img class="timeline-signal" src="assets/images/temporal-signal.svg" alt="" width="800" height="160"><span class="signal-label">UNA CONEXIÓN. TODAS LAS REALIDADES.</span></div>
+      </div>
+      <button id="skipIntro" class="text-button intro-skip">Saltar introducción <i data-lucide="arrow-right"></i></button>
+      <div class="scene-footnote"><span>SOLO PARA TI, EN CUALQUIER UNIVERSO.</span><span>01 / 09</span></div>
+    </section>
+
+    <section id="agente" class="scene identity-scene" data-scene="1" hidden aria-labelledby="agent-title">
+      <div class="section-heading"><p class="eyebrow">01 — VERIFICACIÓN DE IDENTIDAD</p><h2 id="agent-title" tabindex="-1">Estábamos<br><em>esperándote.</em></h2></div>
+      <article class="agent-file">
+        <div class="file-tab">EXPEDIENTE 616-INFINITO</div>
+        <div class="file-header"><span class="file-emblem">TVA ∕</span><span>AUTORIDAD DE<br>VARIACIÓN TEMPORAL</span></div>
+        <div class="file-stamp">ACCESO<br>AUTORIZADO</div>
+        <p class="file-label">AGENTE AUTORIZADA</p><h3 id="agentName">Mi niña hermosa</h3>
+        <dl class="agent-data"><div><dt>CLASIFICACIÓN</dt><dd>Anomalía extraordinaria</dd></div><div><dt>ESTADO</dt><dd>Línea temporal protegida</dd></div><div><dt>RIESGO DETECTADO</dt><dd>Enamoramiento infinito</dd></div></dl>
+        <div class="file-bottom"><span class="barcode" aria-hidden="true"></span><span>616 / AMOR / ∞</span></div>
+        <div class="scanner" aria-hidden="true"></div>
+      </article>
+      <p class="scene-caption">Después de examinar incontables realidades, hemos encontrado una historia que merece ser estudiada.</p>
+      <div class="scene-actions"><button class="back-button" data-go="0"><i data-lucide="arrow-left"></i><span>Volver</span></button><button class="button primary" data-go="2">Comenzar investigación <i data-lucide="arrow-right"></i></button></div>
+    </section>
+
+    <section id="anomalia" class="scene anomaly-scene cosmic-scene" data-scene="2" hidden aria-labelledby="anomaly-title">
+      <img class="cosmic-background" src="assets/images/carina.webp" alt="" decoding="async">
+      <div class="cosmic-shade"></div>
+      <div class="anomaly-intro"><p class="eyebrow">02 — UNA EXCEPCIÓN EN EL UNIVERSO</p><h2 id="anomaly-title" tabindex="-1">La anomalía<br><em>más bonita.</em></h2><p id="mainQuote" class="romantic-line"></p></div>
+      <div class="evidence-composition"><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><figure class="evidence-photo"><div data-photo="main" class="photo-slot"></div><figcaption><span>EVIDENCIA 001</span><span>COINCIDENCIA: INFINITA</span></figcaption></figure><span class="evidence-note">EN TODAS LAS LÍNEAS,<br>UNA MISMA ELECCIÓN.</span></div>
+      <div id="anomalyNarrative" class="narrative"></div>
+      <div class="scene-actions"><button class="back-button" data-go="1"><i data-lucide="arrow-left"></i><span>Volver</span></button><button class="button primary" data-go="3">Explorar las líneas temporales <i data-lucide="arrow-right"></i></button></div>
+    </section>
+
+    <section id="recuerdos" class="scene memories-scene" data-scene="3" hidden aria-labelledby="memories-title">
+      <div class="section-heading"><p class="eyebrow">03 — EVIDENCIAS DE NUESTRA HISTORIA</p><h2 id="memories-title" tabindex="-1">Momentos que<br><em>se quedan.</em></h2><p>No todo lo importante cabe en un expediente.<br>Pero hay recuerdos que merecen uno.</p></div>
+      <div class="archive-rule"><span>LÍNEA TEMPORAL PERSONAL</span><span id="memoryCount">06 ARCHIVOS</span></div>
+      <div id="memoryGrid" class="memory-grid"></div>
+      <div class="scene-actions"><button class="back-button" data-go="2"><i data-lucide="arrow-left"></i><span>Volver</span></button><button class="button primary" data-go="4">Descubrir las seis gemas <i data-lucide="arrow-right"></i></button></div>
+    </section>
+
+    <section id="gemas" class="scene gems-scene" data-scene="4" hidden aria-labelledby="gems-title">
+      <div class="section-heading"><p class="eyebrow">04 — SEIS FORMAS DE DECIRTE TE AMO</p><h2 id="gems-title" tabindex="-1">Nuestro propio<br><em>infinito.</em></h2><p>Seis gemas. Seis razones para elegirte.<br>Un universo entero en lo que sentimos.</p></div>
+      <div class="gem-progress"><div id="gemDots" class="gem-dots" aria-hidden="true"></div><span id="gemProgress" role="status">0 de 6 expedientes explorados</span></div>
+      <div id="gemGrid" class="gem-grid"></div>
+      <div id="discoveryStatus" class="discovery-status" role="status">El archivo final espera a que conozcas las seis gemas.</div>
+      <div class="scene-actions"><button class="back-button" data-go="3"><i data-lucide="arrow-left"></i><span>Volver</span></button><button id="revealButton" class="button primary" data-go="5" disabled><i data-lucide="lock-keyhole"></i> Revelar la anomalía</button></div>
+    </section>
+
+    <section id="revelacion" class="scene reveal-scene cosmic-scene" data-scene="5" hidden aria-labelledby="reveal-title">
+      <img class="cosmic-background" src="assets/images/carina.webp" alt="" loading="lazy"><div class="cosmic-shade"></div>
+      <div class="alert-strip"><span class="status-light"></span><span>ADVERTENCIA TVA / CONEXIÓN EXTRAORDINARIA</span></div>
+      <p class="eyebrow reveal-status">ANALIZANDO RESULTADOS</p>
+      <div class="convergence"><div class="cosmic-portal portal-a" aria-hidden="true"></div><div class="cosmic-portal portal-b" aria-hidden="true"></div><div class="cosmic-portal portal-c" aria-hidden="true"></div><div class="cosmic-portal portal-d" aria-hidden="true"></div><figure class="chosen-photo"><div data-photo="main" class="photo-slot"></div><figcaption>MI UNIVERSO FAVORITO</figcaption></figure></div>
+      <div class="reveal-copy"><p>Millones de posibilidades.<br>Infinitos caminos.<br>Incontables versiones de nuestra historia.</p><p class="eyebrow">Y AUN ASÍ...</p><h2 id="reveal-title" tabindex="-1">Mi elección favorita<br><em>siempre serías tú.</em></h2></div>
+      <div class="scene-actions"><button class="back-button" data-go="4"><i data-lucide="arrow-left"></i><span>Volver a las gemas</span></button><button class="button primary" data-go="6">Abrir el archivo más importante <i data-lucide="arrow-right"></i></button></div>
+    </section>
+
+    <section id="carta" class="scene letter-scene" data-scene="6" hidden aria-labelledby="letter-title">
+      <div class="section-heading"><p class="eyebrow">06 — DESCLASIFICADO. SOLO PARA TI.</p><h2 id="letter-title" tabindex="-1">El archivo que ningún<br>universo podría <em>borrar.</em></h2></div>
+      <article class="love-letter"><div class="letter-meta"><span>DE: TU ESPOSITO</span><span id="specialDate"></span></div><p id="letterGreeting" class="letter-greeting"></p><div id="letterBody"></div><p id="letterSignature" class="letter-signature"></p><div class="letter-seal" aria-hidden="true">∞<span>PROTEGIDO<br>POR SIEMPRE</span></div></article>
+      <figure class="letter-photo"><div data-photo="main" class="photo-slot"></div><figcaption>EL LUGAR AL QUE SIEMPRE QUIERO VOLVER.</figcaption></figure>
+      <div class="anniversary"><span class="little-star" aria-hidden="true">✧</span><p id="anniversaryTitle" class="eyebrow"></p><h3 id="closingMessage"></h3><p>Este universo ya es nuestro.</p></div>
+      <div class="scene-actions"><button class="back-button" data-go="5"><i data-lucide="arrow-left"></i><span>Volver</span></button><button class="button primary" data-go="7">Hay una transmisión para ti <i data-lucide="radio"></i></button></div>
+    </section>
+
+    <section id="mision" class="scene mission-scene" data-scene="7" hidden aria-labelledby="mission-title">
+      <p class="eyebrow incoming"><span class="status-light"></span> TRANSMISIÓN ENTRANTE</p><h2 id="mission-title" tabindex="-1">La misión todavía<br>no ha <em>terminado.</em></h2>
+      <p class="mission-lead">Seis Gemas del Infinito han sido localizadas <br>fuera del sistema digital.</p>
+      <div class="artifact-stage"><span class="artifact-coordinate">ARTEFACTO / 006</span><img src="assets/images/gauntlet.svg" alt="Silueta de un guantelete con seis espacios vacíos para las gemas" width="400" height="480" loading="lazy"><span class="artifact-caption">UBICACIÓN: TU PRÓXIMA AVENTURA</span></div>
+      <p class="scene-caption">Para completar el Proyecto Infinito, la agente autorizada deberá recuperar las seis gemas. Cada una se encuentra protegida por una sorpresa preparada especialmente para ella.</p>
+      <button id="missionToggle" class="button primary" aria-expanded="false" aria-controls="missionInstructions">Ver instrucciones de mi próxima misión <i data-lucide="arrow-down"></i></button>
+      <div id="missionInstructions" class="mission-instructions" hidden><p class="eyebrow">MISIÓN FÍSICA / SIN FECHA LÍMITE</p><ol id="missionSteps"></ol><p class="mission-note">Por esta noche, solo disfruta lo nuestro.<br>Las sorpresitas llegarán en su momento.</p></div>
+      <div class="scene-actions"><button class="back-button" data-go="6"><i data-lucide="arrow-left"></i><span>Releer la carta</span></button><button class="text-button" data-go="8">Ver escena poscréditos <i data-lucide="film"></i></button></div>
+    </section>
+
+    <section id="poscreditos" class="scene credits-scene" data-scene="8" hidden aria-labelledby="credits-title">
+      <p class="eyebrow" id="creditsOpening">MARVEL STUDIOS PRESENTA...</p><span class="credits-infinity" aria-hidden="true">∞</span><h2 id="credits-title" tabindex="-1">Las aventuras de<br>mi niña hermosa<br><em>y su esposito.</em></h2><p class="credits-next">PRÓXIMAMENTE:<br>MUCHOS MÁS CAPÍTULOS JUNTITOS</p><p class="credits-quote">“Nada es para siempre, solo nosotros.”</p>
+      <div class="turtles" aria-label="Dos tortuguitas caminando juntas"><span class="turtle"><span></span></span><span class="turtle second"><span></span></span><span class="turtle-heart" aria-hidden="true">♡</span></div>
+      <div class="credits-actions"><button class="button primary" data-go="4">Explorar los expedientes <i data-lucide="gem"></i></button><button class="button secondary" data-go="6">Releer la carta <i data-lucide="heart"></i></button><button class="text-button" data-go="0">Regresar al inicio <i data-lucide="rotate-ccw"></i></button></div>
+      <p class="credits-disclaimer">Una historia hecha para ti. Proyecto personal inspirado en ficción, sin afiliación con Marvel Studios.</p>
+      <p class="image-credit">Imágenes del universo: NASA, ESA, CSA, STScI.</p>
+    </section>
+  </main>
+
+  <footer class="journey-footer"><span id="sceneName">SISTEMA TVA</span><div class="journey-track" aria-hidden="true"><span id="journeyFill"></span></div><span id="sceneCount">01 / 09</span></footer>
+
+  <dialog id="journeyMenu" class="menu-dialog" aria-labelledby="menu-title"><div class="dialog-heading"><p class="eyebrow">EXP. 616—∞</p><button class="icon-button" data-close="journeyMenu" aria-label="Cerrar índice"><i data-lucide="x"></i></button></div><h2 id="menu-title">Nuestro expediente.</h2><nav id="sceneNav" aria-label="Escenas de la historia"></nav><p class="menu-note">Una línea temporal que siempre vuelve a ti.</p></dialog>
+  <dialog id="archiveDialog" class="archive-dialog" aria-labelledby="archiveTitle"><button class="icon-button dialog-close" data-close="archiveDialog" aria-label="Cerrar expediente"><i data-lucide="x"></i></button><div id="archiveVisual" class="archive-visual"></div><div class="archive-copy"><p id="archiveLabel" class="eyebrow"></p><h2 id="archiveTitle"></h2><p id="archiveText"></p><span id="archiveStamp" class="archive-stamp">TVA / EVIDENCIA PROTEGIDA</span><button id="archiveBack" class="button secondary" data-close="archiveDialog">Volver a los expedientes <i data-lucide="arrow-left"></i></button></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><div class="noscript">Esta historia necesita JavaScript para abrir los expedientes. Actívalo en tu navegador para comenzar.</div></noscript>
+</body>
+</html>
